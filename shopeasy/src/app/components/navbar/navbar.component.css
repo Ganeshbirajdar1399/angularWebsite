@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #6f42c1; /* Purple Background */
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important; /* White Branding Text */
+  }
+  .nav-link {
+    color: #e6e6fa !important; /* Light Purple Links */
+  }
+  .nav-link:hover {
+    color: #ffffff !important; /* White on Hover */
+  }
+  .dropdown-menu {
+    background-color: #6f42c1; /* Purple Dropdown Background */
+    border: none;
+  }
+  .dropdown-item {
+    color: #e6e6fa !important; /* Light Purple Items */
+  }
+  .dropdown-item:hover {
+    color: #ffffff !important; /* White on Hover */
+    background-color: #5a3599; /* Darker Purple Hover Background */
+  }
+
+  /* Enable hover dropdown */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .nav-item.dropdown .dropdown-toggle::after {
+    display: none; /* Remove caret if not needed */
+  }
